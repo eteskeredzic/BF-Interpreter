@@ -309,8 +309,7 @@ namespace BFInterpreter
 
         private void howToUseToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string filename = "help.pdf";
-            System.Diagnostics.Process.Start(filename);
+            System.Diagnostics.Process.Start("https://github.com/eteskeredzic/BF-Interpreter/blob/master/help.pdf");
         }
 
         private void checkBoxLog_CheckedChanged(object sender, EventArgs e)
